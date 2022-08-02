@@ -2,4 +2,20 @@
 *{
     margin:0;
     padding: 0;
+    text-decoration: none;
 }
+
+body {
+    background-color: black;
+}
+
+.hero{
+    background-image: url(../src/bg_hero.jpg);
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    height: 80vh;
+}
+
