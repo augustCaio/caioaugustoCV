@@ -5,17 +5,37 @@
     text-decoration: none;
 }
 
-body {
-    background-color: black;
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/*formatação de texto*/
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
 }
 
-.hero{
-    background-image: url(../src/bg_hero.jpg);
-    background-repeat: no-repeat;
-    filter: blur(3px);
-    display: flex;
-    align-items: flex-start;
-    width: auto;
-    height: 80vh;
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
 }
 
+
+/*formatação divs & sections*/
+
+.container-hero{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    margin-top: 10%;
+}
+
+.box2{
+    height: auto;
+    margin-left: 5%;
+}
