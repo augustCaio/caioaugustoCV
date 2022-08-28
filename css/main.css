@@ -103,3 +103,22 @@ span{
     width: 155px;
     height: 40px;
 }
+
+#contrateme:hover{
+    cursor: pointer;
+    color: #05DBF2;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: #05DBF2;
+    background-color: transparent;
+    transition: 1s;
+    
+}
+
+a{
+    width: 30px;
+    height: 30px;
+}
