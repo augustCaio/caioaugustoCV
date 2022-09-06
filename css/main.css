@@ -113,7 +113,8 @@ p{
     height: 55px;
     color: #000000;
     background: linear-gradient(90deg, #3E3D86 0%, #DE9970 94.88%);
-    border-radius: 0px 58px 58px 0px;  
+    border-radius: 0px 58px 58px 0px;
+    border: none;
 }
 
 /*medias querys*/
