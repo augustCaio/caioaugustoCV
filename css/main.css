@@ -111,17 +111,25 @@ h4{
 }
 
 .btn-contract{
-    color:#2F3136;
+    color:#F22F7B;
     width: 255px;
     height: 40px;
     border-radius: 50px;
-    background: linear-gradient(90deg, #F22F7B 0%, #F99D45 100%);
+    border: solid 2px #F22F7B;
+    background: transparent;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     cursor: pointer;
+}
+
+.btn-contract:hover{
+    background: linear-gradient(90deg, #F22F7B 0%, #F99D45 100%);
+    border: none;
+    color: #FFFFFF;
+    transition: 1s;
 }
 
 #content-center{
