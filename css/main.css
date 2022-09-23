@@ -82,6 +82,11 @@ h4{
     color: #FFFFFF;
 }
 
+#nav a:hover{
+    color:#F22F7B;
+    transition: 0.5s;
+}
+
 #social-content{
     display: flex;
     flex-direction: row;
