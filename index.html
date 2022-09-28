@@ -11,12 +11,14 @@
     <header>
         <nav id="navbar">
             <div id="logo">
-                <img src="/src/logo.svg" alt="Caio">
+                <a href="#content-hero">
+                    <img src="/src/logo.svg" alt="Caio">
+                </a>
             </div>
             <div id="nav">
-                <a href="#">home</a>
-                <a href="#">projetos</a>
-                <a href="#">contrate-me</a>
+                <a href="#content-hero">home</a>
+                <a href="#projects">projetos</a>
+                <a href="#contract">contrate-me</a>
             </div>
             <div id="social-content">
                 <a href="https://github.com/augustCaio" target="_blank">
@@ -38,7 +40,7 @@
         <section id="content-hero">
             <div id="content-left">
                 <h1>Olá,<br>Eu sou <span>Caio</span></h1>
-                <a href="#">
+                <a href="#contract">
                     <button class="btn-contract">
                         contrate me
                     </button>
@@ -58,9 +60,24 @@
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <lottie-player src="https://lottie.host/408d0f4f-018b-4b12-930c-7086c998a75f/BXTudp7gGY.json" background="transparent" speed="1" style="width: 350px; height: 350px;" loop autoplay></lottie-player>
             </div>
         </section>
+        <section id="contract">
+            <h1>Me envie sua proposta!</h1>
+           <div id="form">
+            <form id='form-contact' action="">
+                <label for="name">Seu nome:</label>
+                <input type="text" name="name" id="txtName">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="txtEmail">
+                <label for="messeger">Mensagem</label>
+                <textarea name="messeger" id="txtMesseger" cols="30" rows="10">Sua mensagem aqui</textarea>
+                <button class="subimit-sucess" type="button" id="btnSubimit">ENVIAR MENSAGEM</button>
+            </form>
+           </div>
+        </section>
     </main>
     <footer id="main-footer">
         <h4>©  Direitos resevados - <span>Caio Augusto</span> 2022</h4>
     </footer>
+    <script type="module" src="/js/main.js"></script>
 </body>
 </html>
